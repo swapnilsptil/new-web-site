@@ -1,12 +1,13 @@
 import React from 'react';
-import AppContainer from './components/appcontainer/AppContainer';
+import FirstPage from './firstPage';
 import './App.css';
 
-export default function App() {
-
+function App() {
   return (
     <div className="App">
-      <AppContainer />
+      <FirstPage />
     </div>
   );
 }
+
+export default App;
